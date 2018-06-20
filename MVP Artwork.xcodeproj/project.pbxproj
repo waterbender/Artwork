@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471F930420DAFB29000E06E1 /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471F930320DAFB29000E06E1 /* SequenceExtension.swift */; };
+		471F930520DAFB29000E06E1 /* SequenceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471F930320DAFB29000E06E1 /* SequenceExtension.swift */; };
 		477B282C20D97A1600532BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B282B20D97A1600532BB9 /* AppDelegate.swift */; };
 		477B282E20D97A1600532BB9 /* ArtworkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */; };
 		477B283120D97A1600532BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B282F20D97A1600532BB9 /* Main.storyboard */; };
@@ -60,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		471F930320DAFB29000E06E1 /* SequenceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtension.swift; sourceTree = "<group>"; };
 		477B282820D97A1600532BB9 /* MVP Artwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Artwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B282B20D97A1600532BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				477B288920D9A6EF00532BB9 /* Artwork.swift */,
+				471F930320DAFB29000E06E1 /* SequenceExtension.swift */,
 				477B288C20D9ABBD00532BB9 /* ArtworkModel.swift */,
 			);
 			path = Models;
@@ -386,6 +390,7 @@
 				477B282C20D97A1600532BB9 /* AppDelegate.swift in Sources */,
 				477B287520D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */,
 				477B288A20D9A6EF00532BB9 /* Artwork.swift in Sources */,
+				471F930420DAFB29000E06E1 /* SequenceExtension.swift in Sources */,
 				477B287F20D98D1A00532BB9 /* HTTPMethod.swift in Sources */,
 				477B287920D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */,
 				477B287B20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */,
@@ -397,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471F930520DAFB29000E06E1 /* SequenceExtension.swift in Sources */,
 				477B289120D9AF1D00532BB9 /* NetworkLogger.swift in Sources */,
 				477B288220D98D1A00532BB9 /* HTTPTask.swift in Sources */,
 				477B28A420D9D30300532BB9 /* CollectionViewCell.swift in Sources */,

@@ -66,8 +66,13 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
         cell.contentView.layer.cornerRadius = 20.0
         cell.imageView.image = nil
         
-        let artwork = artworks[indexPath.row]
+        let section = indexPath.row
+        
+        
+        let artwork = artworks[indexPath.item]
         if (artwork.imageUI != nil) {
+            
+            
             cell.imageView.image = artwork.imageUI
             if (artwork.id == "0") {
                 cell.backgroundColor = .green

@@ -28,7 +28,9 @@ class ArtworkModel {
                 completion(false)
                 return
             }
-            self?.artworks.append(contentsOf: artworks)
+            
+            let artworksAppend: [Artwork] = (self?.shufaledSame(artworks: artworks))!
+            self?.artworks.append(contentsOf: artworksAppend)
             
             let countArtworks = (self?.artworks.count) ?? 0
             let countAds = (self?.ads.count) ?? 0
@@ -54,5 +56,21 @@ class ArtworkModel {
                 compliteImage(image, path)
             }
         }
+    }
+    
+    private func shufaledSame(artworks: [Artwork]) -> [Artwork] {
+        var artworksAppend: [Artwork] = artworks
+        for (index, artwork) in artworks.enumerated() {
+            if ((index+1)==artworks.count) {
+                break
+            }
+            if (artwork.image==artworksAppend[index+1].image) {
+                artworksAppend = artworksAppend.shuffled()
+                artworksAppend = shufaledSame(artworks: artworksAppend)
+                break
+            }
+        }
+        
+        return artworksAppend
     }
 }

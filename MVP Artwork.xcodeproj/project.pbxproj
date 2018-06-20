@@ -8,11 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		477B282C20D97A1600532BB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B282B20D97A1600532BB9 /* AppDelegate.swift */; };
-		477B282E20D97A1600532BB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B282D20D97A1600532BB9 /* ViewController.swift */; };
+		477B282E20D97A1600532BB9 /* ArtworkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */; };
 		477B283120D97A1600532BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B282F20D97A1600532BB9 /* Main.storyboard */; };
 		477B283320D97A1800532BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477B283220D97A1800532BB9 /* Assets.xcassets */; };
 		477B283620D97A1800532BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B283420D97A1800532BB9 /* LaunchScreen.storyboard */; };
 		477B284120D97A1800532BB9 /* MVP_ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284020D97A1800532BB9 /* MVP_ColorsTests.swift */; };
+		477B284C20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */; };
+		477B284D20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */; };
+		477B287320D98D1A00532BB9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286520D98D1900532BB9 /* NetworkManager.swift */; };
+		477B287420D98D1A00532BB9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286520D98D1900532BB9 /* NetworkManager.swift */; };
+		477B287520D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286720D98D1900532BB9 /* JSONParameterEncoder.swift */; };
+		477B287620D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286720D98D1900532BB9 /* JSONParameterEncoder.swift */; };
+		477B287720D98D1A00532BB9 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286820D98D1900532BB9 /* ParameterEncoding.swift */; };
+		477B287820D98D1A00532BB9 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286820D98D1900532BB9 /* ParameterEncoding.swift */; };
+		477B287920D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286920D98D1900532BB9 /* URLParameterEncoding.swift */; };
+		477B287A20D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286920D98D1900532BB9 /* URLParameterEncoding.swift */; };
+		477B287B20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286B20D98D1900532BB9 /* ArtworkEndPoint.swift */; };
+		477B287C20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286B20D98D1900532BB9 /* ArtworkEndPoint.swift */; };
+		477B287D20D98D1A00532BB9 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286D20D98D1A00532BB9 /* EndPointType.swift */; };
+		477B287E20D98D1A00532BB9 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286D20D98D1A00532BB9 /* EndPointType.swift */; };
+		477B287F20D98D1A00532BB9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286E20D98D1A00532BB9 /* HTTPMethod.swift */; };
+		477B288020D98D1A00532BB9 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286E20D98D1A00532BB9 /* HTTPMethod.swift */; };
+		477B288120D98D1A00532BB9 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286F20D98D1A00532BB9 /* HTTPTask.swift */; };
+		477B288220D98D1A00532BB9 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286F20D98D1A00532BB9 /* HTTPTask.swift */; };
+		477B288720D98D1A00532BB9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B287220D98D1A00532BB9 /* Router.swift */; };
+		477B288820D98D1A00532BB9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B287220D98D1A00532BB9 /* Router.swift */; };
+		477B288A20D9A6EF00532BB9 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288920D9A6EF00532BB9 /* Artwork.swift */; };
+		477B288B20D9A6EF00532BB9 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288920D9A6EF00532BB9 /* Artwork.swift */; };
+		477B288D20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288C20D9ABBD00532BB9 /* ArtworkModel.swift */; };
+		477B288E20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288C20D9ABBD00532BB9 /* ArtworkModel.swift */; };
+		477B289020D9AF1D00532BB9 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288F20D9AF1D00532BB9 /* NetworkLogger.swift */; };
+		477B289120D9AF1D00532BB9 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B288F20D9AF1D00532BB9 /* NetworkLogger.swift */; };
+		477B289320D9C1B300532BB9 /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289220D9C1B300532BB9 /* ImagesManager.swift */; };
+		477B289420D9C1B300532BB9 /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289220D9C1B300532BB9 /* ImagesManager.swift */; };
+		477B289620D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */; };
+		477B289720D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */; };
+		477B289B20D9C85B00532BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289920D9C85B00532BB9 /* CollectionViewCell.swift */; };
+		477B289D20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */; };
+		477B289E20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +61,7 @@
 /* Begin PBXFileReference section */
 		477B282820D97A1600532BB9 /* MVP Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B282B20D97A1600532BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		477B282D20D97A1600532BB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionViewController.swift; sourceTree = "<group>"; };
 		477B283020D97A1600532BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		477B283220D97A1800532BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477B283520D97A1800532BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +69,23 @@
 		477B283C20D97A1800532BB9 /* MVP ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP ColorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B284020D97A1800532BB9 /* MVP_ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_ColorsTests.swift; sourceTree = "<group>"; };
 		477B284220D97A1800532BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionPresenter.swift; sourceTree = "<group>"; };
+		477B286520D98D1900532BB9 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		477B286720D98D1900532BB9 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		477B286820D98D1900532BB9 /* ParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		477B286920D98D1900532BB9 /* URLParameterEncoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLParameterEncoding.swift; sourceTree = "<group>"; };
+		477B286B20D98D1900532BB9 /* ArtworkEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtworkEndPoint.swift; sourceTree = "<group>"; };
+		477B286D20D98D1A00532BB9 /* EndPointType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		477B286E20D98D1A00532BB9 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		477B286F20D98D1A00532BB9 /* HTTPTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		477B287220D98D1A00532BB9 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		477B288920D9A6EF00532BB9 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
+		477B288C20D9ABBD00532BB9 /* ArtworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkModel.swift; sourceTree = "<group>"; };
+		477B288F20D9AF1D00532BB9 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		477B289220D9C1B300532BB9 /* ImagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesManager.swift; sourceTree = "<group>"; };
+		477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesEndPoint.swift; sourceTree = "<group>"; };
+		477B289920D9C85B00532BB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "MVP Colors/Views/CollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
+		477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = "MVP Colors/Views/CollectionViewCell.xib"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +127,11 @@
 		477B282A20D97A1600532BB9 /* MVP Colors */ = {
 			isa = PBXGroup;
 			children = (
+				477B284E20D97B2D00532BB9 /* Networking */,
+				477B285220D97C3800532BB9 /* Models */,
+				477B285320D97C4600532BB9 /* Presenters */,
+				477B285420D97C5900532BB9 /* Views */,
 				477B282B20D97A1600532BB9 /* AppDelegate.swift */,
-				477B282D20D97A1600532BB9 /* ViewController.swift */,
 				477B282F20D97A1600532BB9 /* Main.storyboard */,
 				477B283220D97A1800532BB9 /* Assets.xcassets */,
 				477B283420D97A1800532BB9 /* LaunchScreen.storyboard */,
@@ -94,6 +147,85 @@
 				477B284220D97A1800532BB9 /* Info.plist */,
 			);
 			path = "MVP ColorsTests";
+			sourceTree = "<group>";
+		};
+		477B284E20D97B2D00532BB9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				477B286620D98D1900532BB9 /* Encoding */,
+				477B286A20D98D1900532BB9 /* EndPoint */,
+				477B286420D98D1900532BB9 /* Manager */,
+				477B286C20D98D1A00532BB9 /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		477B285220D97C3800532BB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				477B288920D9A6EF00532BB9 /* Artwork.swift */,
+				477B288C20D9ABBD00532BB9 /* ArtworkModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		477B285320D97C4600532BB9 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */,
+			);
+			name = Presenters;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		477B285420D97C5900532BB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				477B289920D9C85B00532BB9 /* CollectionViewCell.swift */,
+				477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */,
+				477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		477B286420D98D1900532BB9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				477B286520D98D1900532BB9 /* NetworkManager.swift */,
+				477B289220D9C1B300532BB9 /* ImagesManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		477B286620D98D1900532BB9 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				477B286720D98D1900532BB9 /* JSONParameterEncoder.swift */,
+				477B286820D98D1900532BB9 /* ParameterEncoding.swift */,
+				477B286920D98D1900532BB9 /* URLParameterEncoding.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		477B286A20D98D1900532BB9 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				477B286B20D98D1900532BB9 /* ArtworkEndPoint.swift */,
+				477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		477B286C20D98D1A00532BB9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				477B286D20D98D1A00532BB9 /* EndPointType.swift */,
+				477B286E20D98D1A00532BB9 /* HTTPMethod.swift */,
+				477B286F20D98D1A00532BB9 /* HTTPTask.swift */,
+				477B287220D98D1A00532BB9 /* Router.swift */,
+				477B288F20D9AF1D00532BB9 /* NetworkLogger.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +311,7 @@
 			files = (
 				477B283620D97A1800532BB9 /* LaunchScreen.storyboard in Resources */,
 				477B283320D97A1800532BB9 /* Assets.xcassets in Resources */,
+				477B289D20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */,
 				477B283120D97A1600532BB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477B289E20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +331,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477B282E20D97A1600532BB9 /* ViewController.swift in Sources */,
+				477B289020D9AF1D00532BB9 /* NetworkLogger.swift in Sources */,
+				477B287320D98D1A00532BB9 /* NetworkManager.swift in Sources */,
+				477B289B20D9C85B00532BB9 /* CollectionViewCell.swift in Sources */,
+				477B284C20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */,
+				477B287720D98D1A00532BB9 /* ParameterEncoding.swift in Sources */,
+				477B288D20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */,
+				477B282E20D97A1600532BB9 /* ArtworkCollectionViewController.swift in Sources */,
+				477B288120D98D1A00532BB9 /* HTTPTask.swift in Sources */,
+				477B288720D98D1A00532BB9 /* Router.swift in Sources */,
+				477B287D20D98D1A00532BB9 /* EndPointType.swift in Sources */,
+				477B289620D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */,
 				477B282C20D97A1600532BB9 /* AppDelegate.swift in Sources */,
+				477B287520D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */,
+				477B288A20D9A6EF00532BB9 /* Artwork.swift in Sources */,
+				477B287F20D98D1A00532BB9 /* HTTPMethod.swift in Sources */,
+				477B287920D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */,
+				477B287B20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */,
+				477B289320D9C1B300532BB9 /* ImagesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +356,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477B289120D9AF1D00532BB9 /* NetworkLogger.swift in Sources */,
+				477B288220D98D1A00532BB9 /* HTTPTask.swift in Sources */,
+				477B287A20D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */,
+				477B288B20D9A6EF00532BB9 /* Artwork.swift in Sources */,
+				477B287820D98D1A00532BB9 /* ParameterEncoding.swift in Sources */,
+				477B288020D98D1A00532BB9 /* HTTPMethod.swift in Sources */,
+				477B289720D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */,
+				477B289420D9C1B300532BB9 /* ImagesManager.swift in Sources */,
+				477B284D20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */,
+				477B288820D98D1A00532BB9 /* Router.swift in Sources */,
+				477B287620D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */,
+				477B287420D98D1A00532BB9 /* NetworkManager.swift in Sources */,
+				477B288E20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */,
 				477B284120D97A1800532BB9 /* MVP_ColorsTests.swift in Sources */,
+				477B287E20D98D1A00532BB9 /* EndPointType.swift in Sources */,
+				477B287C20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +530,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yevgeniiP.MVP-Colors";
+				PRODUCT_BUNDLE_IDENTIFIER = "yevgeniiP.MVP-Artwork";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -383,7 +548,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yevgeniiP.MVP-Colors";
+				PRODUCT_BUNDLE_IDENTIFIER = "yevgeniiP.MVP-Artwork";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

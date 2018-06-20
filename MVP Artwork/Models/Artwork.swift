@@ -37,8 +37,8 @@ class ArtworksApiResponse: Decodable {
 }
 
 class Artwork: Decodable {
-    let id: String
-    let image: String
+    var id: String
+    var image: String
     var imageUI: UIImage?
     
     private enum ArtworkCodingKeys: String, CodingKey {
@@ -51,5 +51,11 @@ class Artwork: Decodable {
         
         id = try artworkContainer.decode(String.self, forKey: .id)
         image = try artworkContainer.decode(String.self, forKey: .imageUrlString)
+    }
+    
+    init(image: UIImage?, imageUrl:String, id:String) {
+        self.id = id
+        self.imageUI = image
+        self.image = imageUrl
     }
 }

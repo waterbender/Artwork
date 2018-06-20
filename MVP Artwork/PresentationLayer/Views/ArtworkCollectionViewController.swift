@@ -27,6 +27,7 @@ class ArtworkCollectionViewController: UIViewController, Reloadble {
         self.view.backgroundColor = presenter.backgroundColor
         self.presenter.delegate = self
         setupCollectionView()
+        
         presenter.updateArtwork { [weak self] in
             OperationQueue.main.addOperation {
                 self?.collectionView.reloadData()

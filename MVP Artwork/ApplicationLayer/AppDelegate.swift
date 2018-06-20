@@ -27,7 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func makeRootViewController() -> UIViewController {
         
         let networkLayer = NetworkManager()
-        let model = ArtworkModel(with: networkLayer)
+        let imagesLayer = ImagesManager()
+        let model = ArtworkModel(with: networkLayer, and: imagesLayer)
         let presenter = ArtworkCollectionPresenter(with: model)
         return ArtworkCollectionViewController(with: presenter)
     }

@@ -62,19 +62,34 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as! CollectionViewCell
+        
         cell.contentView.layer.cornerRadius = 20.0
+        cell.imageView.image = nil
         
         let artwork = artworks[indexPath.row]
         if (artwork.imageUI != nil) {
             cell.imageView.image = artwork.imageUI
+            if (artwork.id == "0") {
+                cell.imageView.backgroundColor = .green
+                cell.imageView.image = artwork.imageUI
+            }
         } else {
-            manager.downloadImage(urlString: artwork.image) { (image) in
-
-                OperationQueue.main.addOperation {
+            
+            if (artwork.id != "0") {
+                manager.downloadImage(urlString: artwork.image) { (image, urlString) in
                     artwork.imageUI = image
-                    cell.imageView.image = nil
-                    cell.imageView.image = artwork.imageUI
+                    OperationQueue.main.addOperation {
+                        cell.imageView.image = image
+                    }
                 }
+            } else {
+                self.model.getUnicAdImage(link: artwork.image, compliteImage: { (image, urlString) in
+                    artwork.imageUI = image
+                    artwork.image = urlString!
+                    OperationQueue.main.addOperation {
+                        cell.imageView.image = image
+                    }
+                })
             }
         }
         

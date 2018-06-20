@@ -31,7 +31,7 @@ extension ArtworkApi: EndPointType {
     
     var path: String {
         switch self {
-        case .artworks(let limit, let skip):
+        case .artworks(_,_):
             return "get_artworks"
         }
     }
@@ -42,10 +42,10 @@ extension ArtworkApi: EndPointType {
     
     var task: HTTPTask {
         switch self {
-        case .artworks(_, _):
+        case .artworks(let limit, let skip):
             return .requestParameters(bodyParameters: nil,
                                       bodyEncoding: .urlEncoding,
-                                      urlParameters: [:])
+                                      urlParameters: ["limit":limit, "skip":skip])
 //        default:
 //            return .request
         }

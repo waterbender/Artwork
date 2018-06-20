@@ -65,10 +65,7 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
         
         cell.contentView.layer.cornerRadius = 20.0
         cell.imageView.image = nil
-        
-        let section = indexPath.row
-        
-        
+ 
         let artwork = artworks[indexPath.item]
         if (artwork.imageUI != nil) {
             

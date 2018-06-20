@@ -1,6 +1,6 @@
 //
 //  ImagesManager.swift
-//  MVP Colors
+//  MVP Artwork
 //
 //  Created by Zhenia Pasko on 6/20/18.
 //  Copyright © 2018 Zhenia Pasko. All rights reserved.
@@ -17,7 +17,7 @@ class ImagesManager {
         
         router.request(.imageUrl(urlLink: urlString), completion: { (data, response, error) in
             guard let data = data, error == nil else { return }
-            print(response?.suggestedFilename)
+            print(response?.suggestedFilename ?? "")
             print("Download Finished")
             complition(UIImage(data: data))
         })

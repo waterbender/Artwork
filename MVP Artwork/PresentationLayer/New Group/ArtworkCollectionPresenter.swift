@@ -70,8 +70,9 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
         if (artwork.imageUI != nil) {
             cell.imageView.image = artwork.imageUI
             if (artwork.id == "0") {
-                cell.imageView.backgroundColor = .green
-                cell.imageView.image = artwork.imageUI
+                cell.backgroundColor = .green
+            } else {
+                cell.backgroundColor = .black
             }
         } else {
             
@@ -80,6 +81,7 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
                     artwork.imageUI = image
                     OperationQueue.main.addOperation {
                         cell.imageView.image = image
+                        cell.backgroundColor = .black
                     }
                 }
             } else {
@@ -88,6 +90,7 @@ extension ArtworkCollectionPresenter: UICollectionViewDataSource {
                     artwork.image = urlString!
                     OperationQueue.main.addOperation {
                         cell.imageView.image = image
+                        cell.backgroundColor = .green
                     }
                 })
             }

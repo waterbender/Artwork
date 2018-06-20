@@ -33,7 +33,8 @@ class ArtworkModel {
             let countArtworks = (self?.artworks.count) ?? 0
             let countAds = (self?.ads.count) ?? 0
             if ((countArtworks-countAds)%20==0 && (countArtworks != 0)) {
-                let artworkAd = Artwork(image: nil, imageUrl: "https://loremflickr.com/620/440?random=1", id: "0")
+                let randomInt = Int(arc4random_uniform(50) + 1)
+                let artworkAd = Artwork(image: nil, imageUrl: "https://loremflickr.com/620/440?random=\(randomInt)", id: "0")
                 self?.artworks.append(artworkAd)
                 self?.ads.append(artworkAd)
             }

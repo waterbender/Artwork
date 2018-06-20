@@ -1,13 +1,13 @@
 //
-//  MVP_ColorsTests.swift
-//  MVP ColorsTests
+//  MVP_ArtworkTests.swift
+//  MVP ArtworkTests
 //
 //  Created by Zhenia Pasko on 6/19/18.
 //  Copyright © 2018 Zhenia Pasko. All rights reserved.
 //
 
 import XCTest
-@testable import MVP_Colors
+@testable import MVP_Artwork
 
 class MVP_ColorsTests: XCTestCase {
     
@@ -21,7 +21,7 @@ class MVP_ColorsTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         let path = ArtworkApi.artworks(limit:10, skip:0)
-        XCTAssertEqual(path.path, "get_artworks?limit=10&skip=0")
+        XCTAssertEqual(path.path, "get_artworks")
         
     }
 }

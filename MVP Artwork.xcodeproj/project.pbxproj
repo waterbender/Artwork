@@ -12,7 +12,7 @@
 		477B283120D97A1600532BB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B282F20D97A1600532BB9 /* Main.storyboard */; };
 		477B283320D97A1800532BB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 477B283220D97A1800532BB9 /* Assets.xcassets */; };
 		477B283620D97A1800532BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477B283420D97A1800532BB9 /* LaunchScreen.storyboard */; };
-		477B284120D97A1800532BB9 /* MVP_ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284020D97A1800532BB9 /* MVP_ColorsTests.swift */; };
+		477B284120D97A1800532BB9 /* MVP_ArtworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284020D97A1800532BB9 /* MVP_ArtworkTests.swift */; };
 		477B284C20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */; };
 		477B284D20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */; };
 		477B287320D98D1A00532BB9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B286520D98D1900532BB9 /* NetworkManager.swift */; };
@@ -43,9 +43,10 @@
 		477B289420D9C1B300532BB9 /* ImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289220D9C1B300532BB9 /* ImagesManager.swift */; };
 		477B289620D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */; };
 		477B289720D9C26E00532BB9 /* ImagesEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */; };
-		477B289B20D9C85B00532BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B289920D9C85B00532BB9 /* CollectionViewCell.swift */; };
-		477B289D20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */; };
-		477B289E20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */; };
+		477B28A120D9D30300532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289F20D9D30300532BB9 /* CollectionViewCell.xib */; };
+		477B28A220D9D30300532BB9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477B289F20D9D30300532BB9 /* CollectionViewCell.xib */; };
+		477B28A320D9D30300532BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B28A020D9D30300532BB9 /* CollectionViewCell.swift */; };
+		477B28A420D9D30300532BB9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477B28A020D9D30300532BB9 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		477B282820D97A1600532BB9 /* MVP Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Colors.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		477B282820D97A1600532BB9 /* MVP Artwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP Artwork.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		477B282B20D97A1600532BB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionViewController.swift; sourceTree = "<group>"; };
 		477B283020D97A1600532BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		477B283220D97A1800532BB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		477B283520D97A1800532BB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		477B283720D97A1800532BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		477B283C20D97A1800532BB9 /* MVP ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP ColorsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		477B284020D97A1800532BB9 /* MVP_ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_ColorsTests.swift; sourceTree = "<group>"; };
+		477B283C20D97A1800532BB9 /* MVP ArtworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP ArtworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		477B284020D97A1800532BB9 /* MVP_ArtworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_ArtworkTests.swift; sourceTree = "<group>"; };
 		477B284220D97A1800532BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkCollectionPresenter.swift; sourceTree = "<group>"; };
 		477B286520D98D1900532BB9 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -84,8 +85,8 @@
 		477B288F20D9AF1D00532BB9 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
 		477B289220D9C1B300532BB9 /* ImagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesManager.swift; sourceTree = "<group>"; };
 		477B289520D9C26E00532BB9 /* ImagesEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesEndPoint.swift; sourceTree = "<group>"; };
-		477B289920D9C85B00532BB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = "MVP Colors/Views/CollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
-		477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CollectionViewCell.xib; path = "MVP Colors/Views/CollectionViewCell.xib"; sourceTree = SOURCE_ROOT; };
+		477B289F20D9D30300532BB9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		477B28A020D9D30300532BB9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +110,8 @@
 		477B281F20D97A1600532BB9 = {
 			isa = PBXGroup;
 			children = (
-				477B282A20D97A1600532BB9 /* MVP Colors */,
-				477B283F20D97A1800532BB9 /* MVP ColorsTests */,
+				477B282A20D97A1600532BB9 /* MVP Artwork */,
+				477B283F20D97A1800532BB9 /* MVP ArtworkTests */,
 				477B282920D97A1600532BB9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,38 +119,35 @@
 		477B282920D97A1600532BB9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				477B282820D97A1600532BB9 /* MVP Colors.app */,
-				477B283C20D97A1800532BB9 /* MVP ColorsTests.xctest */,
+				477B282820D97A1600532BB9 /* MVP Artwork.app */,
+				477B283C20D97A1800532BB9 /* MVP ArtworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		477B282A20D97A1600532BB9 /* MVP Colors */ = {
+		477B282A20D97A1600532BB9 /* MVP Artwork */ = {
 			isa = PBXGroup;
 			children = (
-				477B284E20D97B2D00532BB9 /* Networking */,
+				477B28A520D9D5C600532BB9 /* ApplicationLayer */,
+				477B28A620D9D5F300532BB9 /* PresentationLayer */,
+				477B284E20D97B2D00532BB9 /* CoreLayer */,
 				477B285220D97C3800532BB9 /* Models */,
-				477B285320D97C4600532BB9 /* Presenters */,
-				477B285420D97C5900532BB9 /* Views */,
-				477B282B20D97A1600532BB9 /* AppDelegate.swift */,
-				477B282F20D97A1600532BB9 /* Main.storyboard */,
-				477B283220D97A1800532BB9 /* Assets.xcassets */,
-				477B283420D97A1800532BB9 /* LaunchScreen.storyboard */,
-				477B283720D97A1800532BB9 /* Info.plist */,
+				477B28A820D9D64D00532BB9 /* Resources */,
+				477B28A720D9D63100532BB9 /* Supporting Files */,
 			);
-			path = "MVP Colors";
+			path = "MVP Artwork";
 			sourceTree = "<group>";
 		};
-		477B283F20D97A1800532BB9 /* MVP ColorsTests */ = {
+		477B283F20D97A1800532BB9 /* MVP ArtworkTests */ = {
 			isa = PBXGroup;
 			children = (
-				477B284020D97A1800532BB9 /* MVP_ColorsTests.swift */,
+				477B284020D97A1800532BB9 /* MVP_ArtworkTests.swift */,
 				477B284220D97A1800532BB9 /* Info.plist */,
 			);
-			path = "MVP ColorsTests";
+			path = "MVP ArtworkTests";
 			sourceTree = "<group>";
 		};
-		477B284E20D97B2D00532BB9 /* Networking */ = {
+		477B284E20D97B2D00532BB9 /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
 				477B286620D98D1900532BB9 /* Encoding */,
@@ -157,7 +155,7 @@
 				477B286420D98D1900532BB9 /* Manager */,
 				477B286C20D98D1A00532BB9 /* Service */,
 			);
-			path = Networking;
+			path = CoreLayer;
 			sourceTree = "<group>";
 		};
 		477B285220D97C3800532BB9 /* Models */ = {
@@ -169,20 +167,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		477B285320D97C4600532BB9 /* Presenters */ = {
+		477B285320D97C4600532BB9 /* Presentors */ = {
 			isa = PBXGroup;
 			children = (
 				477B284B20D97A8600532BB9 /* ArtworkCollectionPresenter.swift */,
 			);
-			name = Presenters;
+			name = Presentors;
 			path = "New Group";
 			sourceTree = "<group>";
 		};
 		477B285420D97C5900532BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				477B289920D9C85B00532BB9 /* CollectionViewCell.swift */,
-				477B289A20D9C85B00532BB9 /* CollectionViewCell.xib */,
+				477B28A020D9D30300532BB9 /* CollectionViewCell.swift */,
+				477B289F20D9D30300532BB9 /* CollectionViewCell.xib */,
 				477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */,
 			);
 			path = Views;
@@ -228,12 +226,47 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
+		477B28A520D9D5C600532BB9 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				477B282B20D97A1600532BB9 /* AppDelegate.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		477B28A620D9D5F300532BB9 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				477B285320D97C4600532BB9 /* Presentors */,
+				477B285420D97C5900532BB9 /* Views */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		477B28A720D9D63100532BB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				477B282F20D97A1600532BB9 /* Main.storyboard */,
+				477B283420D97A1800532BB9 /* LaunchScreen.storyboard */,
+				477B283720D97A1800532BB9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		477B28A820D9D64D00532BB9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				477B283220D97A1800532BB9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		477B282720D97A1600532BB9 /* MVP Colors */ = {
+		477B282720D97A1600532BB9 /* MVP Artwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 477B284520D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP Colors" */;
+			buildConfigurationList = 477B284520D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP Artwork" */;
 			buildPhases = (
 				477B282420D97A1600532BB9 /* Sources */,
 				477B282520D97A1600532BB9 /* Frameworks */,
@@ -243,14 +276,14 @@
 			);
 			dependencies = (
 			);
-			name = "MVP Colors";
+			name = "MVP Artwork";
 			productName = "MVP Colors";
-			productReference = 477B282820D97A1600532BB9 /* MVP Colors.app */;
+			productReference = 477B282820D97A1600532BB9 /* MVP Artwork.app */;
 			productType = "com.apple.product-type.application";
 		};
-		477B283B20D97A1800532BB9 /* MVP ColorsTests */ = {
+		477B283B20D97A1800532BB9 /* MVP ArtworkTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 477B284820D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP ColorsTests" */;
+			buildConfigurationList = 477B284820D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP ArtworkTests" */;
 			buildPhases = (
 				477B283820D97A1800532BB9 /* Sources */,
 				477B283920D97A1800532BB9 /* Frameworks */,
@@ -261,9 +294,9 @@
 			dependencies = (
 				477B283E20D97A1800532BB9 /* PBXTargetDependency */,
 			);
-			name = "MVP ColorsTests";
+			name = "MVP ArtworkTests";
 			productName = "MVP ColorsTests";
-			productReference = 477B283C20D97A1800532BB9 /* MVP ColorsTests.xctest */;
+			productReference = 477B283C20D97A1800532BB9 /* MVP ArtworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -285,7 +318,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 477B282320D97A1600532BB9 /* Build configuration list for PBXProject "MVP Colors" */;
+			buildConfigurationList = 477B282320D97A1600532BB9 /* Build configuration list for PBXProject "MVP Artwork" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -298,8 +331,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				477B282720D97A1600532BB9 /* MVP Colors */,
-				477B283B20D97A1800532BB9 /* MVP ColorsTests */,
+				477B282720D97A1600532BB9 /* MVP Artwork */,
+				477B283B20D97A1800532BB9 /* MVP ArtworkTests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,7 +344,7 @@
 			files = (
 				477B283620D97A1800532BB9 /* LaunchScreen.storyboard in Resources */,
 				477B283320D97A1800532BB9 /* Assets.xcassets in Resources */,
-				477B289D20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */,
+				477B28A120D9D30300532BB9 /* CollectionViewCell.xib in Resources */,
 				477B283120D97A1600532BB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				477B289E20D9C85B00532BB9 /* CollectionViewCell.xib in Resources */,
+				477B28A220D9D30300532BB9 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +366,7 @@
 			files = (
 				477B289020D9AF1D00532BB9 /* NetworkLogger.swift in Sources */,
 				477B287320D98D1A00532BB9 /* NetworkManager.swift in Sources */,
-				477B289B20D9C85B00532BB9 /* CollectionViewCell.swift in Sources */,
+				477B28A320D9D30300532BB9 /* CollectionViewCell.swift in Sources */,
 				477B284C20D97A8600532BB9 /* ArtworkCollectionPresenter.swift in Sources */,
 				477B287720D98D1A00532BB9 /* ParameterEncoding.swift in Sources */,
 				477B288D20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */,
@@ -358,6 +391,7 @@
 			files = (
 				477B289120D9AF1D00532BB9 /* NetworkLogger.swift in Sources */,
 				477B288220D98D1A00532BB9 /* HTTPTask.swift in Sources */,
+				477B28A420D9D30300532BB9 /* CollectionViewCell.swift in Sources */,
 				477B287A20D98D1A00532BB9 /* URLParameterEncoding.swift in Sources */,
 				477B288B20D9A6EF00532BB9 /* Artwork.swift in Sources */,
 				477B287820D98D1A00532BB9 /* ParameterEncoding.swift in Sources */,
@@ -369,7 +403,7 @@
 				477B287620D98D1A00532BB9 /* JSONParameterEncoder.swift in Sources */,
 				477B287420D98D1A00532BB9 /* NetworkManager.swift in Sources */,
 				477B288E20D9ABBD00532BB9 /* ArtworkModel.swift in Sources */,
-				477B284120D97A1800532BB9 /* MVP_ColorsTests.swift in Sources */,
+				477B284120D97A1800532BB9 /* MVP_ArtworkTests.swift in Sources */,
 				477B287E20D98D1A00532BB9 /* EndPointType.swift in Sources */,
 				477B287C20D98D1A00532BB9 /* ArtworkEndPoint.swift in Sources */,
 			);
@@ -380,7 +414,7 @@
 /* Begin PBXTargetDependency section */
 		477B283E20D97A1800532BB9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 477B282720D97A1600532BB9 /* MVP Colors */;
+			target = 477B282720D97A1600532BB9 /* MVP Artwork */;
 			targetProxy = 477B283D20D97A1800532BB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -525,7 +559,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS64M736MH;
-				INFOPLIST_FILE = "MVP Colors/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVP Artwork/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +577,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS64M736MH;
-				INFOPLIST_FILE = "MVP Colors/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MVP Artwork/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,7 +596,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS64M736MH;
-				INFOPLIST_FILE = "MVP ColorsTests/Info.plist";
+				INFOPLIST_FILE = "MVP ArtworkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -572,7 +606,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP Colors.app/MVP Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP Artwork.app/MVP Artwork";
 			};
 			name = Debug;
 		};
@@ -583,7 +617,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZS64M736MH;
-				INFOPLIST_FILE = "MVP ColorsTests/Info.plist";
+				INFOPLIST_FILE = "MVP ArtworkTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,14 +627,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP Colors.app/MVP Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP Artwork.app/MVP Artwork";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		477B282320D97A1600532BB9 /* Build configuration list for PBXProject "MVP Colors" */ = {
+		477B282320D97A1600532BB9 /* Build configuration list for PBXProject "MVP Artwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				477B284320D97A1800532BB9 /* Debug */,
@@ -609,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		477B284520D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP Colors" */ = {
+		477B284520D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP Artwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				477B284620D97A1800532BB9 /* Debug */,
@@ -618,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		477B284820D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP ColorsTests" */ = {
+		477B284820D97A1800532BB9 /* Build configuration list for PBXNativeTarget "MVP ArtworkTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				477B284920D97A1800532BB9 /* Debug */,

@@ -179,8 +179,7 @@
 		477B285420D97C5900532BB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				477B28A020D9D30300532BB9 /* CollectionViewCell.swift */,
-				477B289F20D9D30300532BB9 /* CollectionViewCell.xib */,
+				477B28A920D9D6EE00532BB9 /* Cells */,
 				477B282D20D97A1600532BB9 /* ArtworkCollectionViewController.swift */,
 			);
 			path = Views;
@@ -259,6 +258,15 @@
 				477B283220D97A1800532BB9 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		477B28A920D9D6EE00532BB9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				477B28A020D9D30300532BB9 /* CollectionViewCell.swift */,
+				477B289F20D9D30300532BB9 /* CollectionViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
